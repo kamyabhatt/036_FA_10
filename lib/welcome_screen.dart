@@ -56,7 +56,7 @@ class WelcomeScreen extends StatelessWidget {
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
                       ),
                       onPressed: () {
-                        // বাটন চাপলে লগইন স্ক্রিনে যাবে
+                        
                         Navigator.pushNamed(context, '/login');
                       },
                       child: Text(
