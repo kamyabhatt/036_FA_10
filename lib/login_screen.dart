@@ -11,7 +11,7 @@ class LoginScreen extends StatelessWidget {
             height: double.infinity,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage("assets/background.png"), // PNG এক্সটেনশন ব্যবহার করা হয়েছে
+                image: AssetImage("assets/background.png"),
                 fit: BoxFit.cover,
               ),
             ),
